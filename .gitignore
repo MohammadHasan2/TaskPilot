@@ -1,5 +1,21 @@
 .env
+.env.*
+!.env.example
 **/.env
+**/.env.*
+
+# Node.js
+**/node_modules/
+**/dist/
+
+# Python
 **/__pycache__/
+**/*.py[cod]
 **/.pytest_cache/
 **/.venv/
+**/venv/
+
+# Local editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
